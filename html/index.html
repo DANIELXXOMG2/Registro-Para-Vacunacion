@@ -11,14 +11,15 @@
     <h1>Registro para vacunacion COVID-19</h1>
 <form action="post">
 <label for="text">Nombre</label>
-<input type="text" class="name" required> <br> <br>
+<input type="text" class="name" title="Rellene Su nombre" required> <br> <br>
 
 <label for="text">Apellidos</label>
-<input type="text" class="name" required><br> <br>
+<input type="text" class="name" title="Rellene Su Apellido" required><br> <br>
 
-<label for="Sexo">Sexo</label>
-<input type="radio" name="sexo" id="sexo" required> hombre
-<input type="radio" name="sexo" id="sexo" required> mujer <br> <br>
+<label for="Sexo" title="Seleccione su sexo">Sexo</label>
+<input type="radio" name="sexo" id="sexo" required> <span title="Click para seleccionar hombre">hombre</span>
+<input type="radio" name="sexo" id="sexo" required> 
+<span title="Click para seleccionar mujer">mujer</span> <br> <br>
 
 <label for="email">Email</label>
 <input type="email" class="creden" required> <br> <br>
@@ -35,7 +36,7 @@
 <input type="checkbox" required>Declaro haber leido y acepto las condiciones genewrales del programa y la normativa sobre proteccion de datos<br> <br>
 
 <button id="summit" class="summit">
-    <a href="datos_enviados.html" target="_blank">Enviar</a>
+    <a href="datos_enviados.html" title="Dale Click enviar" target="_blank">Enviar</a>
 </button>
 </form>
 </div>
